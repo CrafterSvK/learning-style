@@ -1,282 +1,110 @@
+<!DOCTYPE html>
 <html>
+
 <head>
 	<title>Štýl učenia</title>
 	<meta charset="utf-8">
 	<meta author="Žaneta Janeková">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-	<h1 id="vysledok"></h1>
 	<div id="form"></div>
+	<h1 id="vysledok"></h1>
+	<div class="vysledok" id="vizualny">
+		<h2>Vizuálny (zrakový) štýl učenia</h2>
+		<p>dáva prednosť tomu, aby videl obrázky, grafy, demonštrácie, vidí a pozoruje veci. Uprednostňuje letáky, filmy, flipcharty, a tak ďalej. Títo ľudia uprednostňujú frázy ako: ,,ukáž mi ́ ́ alebo ,, poďme sa pozrieť. Najlepšie vykoná úlohu, ak si prečíta inštrukcie, alebo ak sleduje niekoho, kto to urobí ako prvý. Sú to ľudia, ktorí budú pracovať na základe písomných smerníc, zoznamov a inštrukcií.</p>
+		<b>Preferované techniky učenia:</b>
+		<ul>
+			<li>Myšlienkové a procesné mapy,</li>
+			<li>farebné zvýrazňovanie a podčiarkovanie,</li>
+			<li>schémy,</li>
+			<li>obrázky,</li>
+			<li>kartičky s písaným textom (napr. slovíčka alebo poučky),</li>
+			<li>farebné označovanie dôležitých slov (napr. tvrdé y červenou a mäkké i zelenou),</li>
+			<li>pozeranie filmov, dokumentov a prezentácií,</li>
+			<li>tiež platí, že títo študenti by sa mali na testy pripravovať písaním (kreslením).</li>
+		</ul>
+	</div>
+	<div class="vysledok" id="sluchovy">
+		<h2>Auditívny (sluchový) štýl učenia</h2>
+		<p>dáva prednosť získavaniu informácii sluchom: povedané slová, zvuky, hluk. Títo ľudia uprednostňujú frázy typu ,, povedz mi ́ ́ alebo ,, poďme to prebrať ́ ́. Bude najschopnejší vykonávať novú úlohu po jej ústnom zadaní. Jedná sa o ľudí, ktorí radi dostávajú hovorené pokyny cez telefón. Môžu si pamätať texty piesní, ktoré počujú.</p>
+		<b>Preferované techniky učenia:</b>
+		<ul>
+			<li>Učenie sa a opakovanie nahlas,</li>
+			<li>nahrávanie si vecí a počúvanie materiálov,</li>
+			<li>počúvanie nahrávok 1,5x rýchlejšie,</li>
+			<li>počúvanie inštrukcií,</li>
+			<li>prečítanie si zadania cvičenia nahlas,</li>
+			<li>opakovanie si textu nahlas (napr. básničku),</li>
+			<li>čítanie textu nahlas (čítanie knihy),</li>
+			<li>pozeranie videí, filmov,</li>
+			<li>učiť sa v tichom prostredí,</li>
+			<li>opakovanie učiva nahlas (aby sami seba počuli, ako ho rozprávajú).</li>
+		</ul>
+	</div>
+	<div class="vysledok" id="kinesticky">
+		<h2>Kinestický štýl učenia</h2>
+		<p>dáva prednosť fyzickej skúsenosti- dotýka sa, preciťuje, robí, skúša, praktizuje, rád získava skúsenosti. Títo ľudia uprednostňujú frázu ako ,, skúsim to ́ ́ alebo ,,Ako sa cítiš? ́ ́. Najlepšie vykonajú novú úlohu tým, že ju vyskúšajú a učia sa to na základe skúseností. Sú to ľudia, ktorí radi experimentujú a málokedy sa pozerajú na inštrukcie. Ich prednosti sú v priestorovej predstavivosti a pohybovej koordinácii. Učiť sa učivo je pre nich náročné, nakoľko sa potrebujú hýbať. Odporúča sa, aby sa preto učili v pohybe (striedali aktivity a počas učenia sa napr. prechádzali). Zvyčajne musia mať častejšie prestávky.</p>
+		<b>Preferované techniky učenia:</b>
+		<ul>
+			<li>Myšlienkové mapy,</li>	
+			<li>tréning naživo,</li>
+			<li>pohyb pri učení (napr. chôdza, pohojdávanie),</li>
+			<li>takýmto deťom sa odporúča mať doma hojdačku, žinienku či sedací vak,</li>
+			<li>mať dostatok pohybu vonku, </li>
+			<li>tanec a spev pri učení,</li>
+			<li>učenie rytmom (napr. nepravidelné slovesá),</li>
+			<li>učenie sa písaním.</li>	
+		</ul>
+	</div>
+	<p class="vysledok" id="popis">
+		Ľudia majú často hlavný preferovaný štýl učenia, alebo majú časť zmesi všetkých troch. Majú zmes aj dvoch aj troch
+		štýlov učenia.<br>
+		Ak si zistil, aký typ učenia preferuješ ty, rozumieš typom učenia, ktoré ti najviac vyhovujú.<br>
+		Neexistuje žiadny zlý alebo dobrý štýl učenia. Pointa je tá, že existujú typy učenia, ktoré majú právna svoj vlastný
+		spôsob učenia.<br>
+		Vezmite si na vedomie, že to nie je vedecky platný testovací nástroj. Je to zadarmo posudzovací nástroj navrhnutý na
+		široké označenie preferovaného štýlu učenia.<br>
+	</p>
+	<hr>
+	<i>Zdroj: Vizuálne, Auditívne, Kinestetické (zrakové, sluchové, pohybové a pocitové) štýly učenia TEST Martin Hlinka
+		<a href="www.porazskolu.sk">www.porazskolu.sk</a>,<br>
+		výroba, úprava a odporúčania: Mgr. Ž. Janeková
+	</i>
 	<script>
+		var a=['</p>','<input\x20type=\x22radio\x22\x20name=\x22','\x22\x20value=\x22a\x22>','<br>','\x22\x20value=\x22b\x22>','\x22\x20value=\x22c\x22>','querySelector','#submit','onclick','length','input[name=\x22','checked','push','value','location','href','#otazka-','max','kinestetický\x20štýl\x20učenia','\x20a\x20','#vysledok','Máš\x20','indexOf','vizuálny\x20typ\x20učenia','#vizualny','style','display','sluchový\x20štýl\x20učenia','#sluchovy','block','#kinesticky','#popis','querySelectorAll','input','disabled','onload','Keď\x20pracujem\x20s\x20novým\x20zariadením','najprv\x20si\x20prečítam\x20návod','vypočujem\x20si\x20vysvetlenie\x20od\x20niekoho,\x20kto\x20ho\x20používal\x20skôr','Ak\x20potrebujem\x20pri\x20cestovaní\x20pokyny,\x20obyčajne','hľadám\x20na\x20mape','od\x20niekoho\x20požiadam\x20pokyny','spoľahnem\x20sa\x20na\x20svoj\x20nos\x20a\x20možno\x20použijem\x20kompas','riadim\x20sa\x20podľa\x20napísaného\x20receptu','zavolám\x20kamarátovi/známemu\x20pre\x20vysvetlenie','nasledujem\x20svoje\x20inštinkty,\x20skúšam\x20tým,\x20že\x20varím','napísať\x20pre\x20nich\x20stanovené\x20inštrukcie','dať\x20im\x20slovné\x20vysvetlenie','raz\x20im\x20to\x20ukázať\x20a\x20potom\x20ich\x20nechať\x20tak','Mám\x20tendenciu\x20hovoriť','pozri\x20ako\x20to\x20robím','počúvaj\x20ma,\x20keď\x20vysvetľujem','vyskúšaj\x20to','počúvam\x20hudbu\x20a\x20rozprávam\x20sa\x20s\x20mojimi\x20priateľmi','športujem\x20alebo\x20robím\x20ručné\x20práce','Keď\x20nakupujem\x20oblečenie\x20mám\x20tendenciu','predstavovať\x20si,\x20ako\x20by\x20to\x20vyzeralo','radiť\x20sa\x20s\x20personálom\x20predajne','skúšať\x20a\x20testovať\x20oblečenie','Keď\x20si\x20vyberám\x20dovolenku,\x20zvyčajne','prečítam\x20množstvo\x20brožúr','vypočujem\x20si\x20odporúčania\x20od\x20priateľov','predstavujem\x20si,\x20aké\x20by\x20to\x20tam\x20malo\x20byť','prečítal\x20recenzie\x20v\x20novinách\x20a\x20magazínoch','prediskutoval\x20o\x20tom,\x20čo\x20potrebujem\x20s\x20mojimi\x20známymi','otestoval\x20by\x20som\x20mnoho\x20typov','Najpohodlnejšie\x20sa\x20nové\x20zručnosti\x20učím','ak\x20sledujem,\x20čo\x20robí\x20učiteľ','ak\x20mi\x20učiteľ\x20hovorí\x20presne\x20to,\x20čo\x20mám\x20robiť','keď\x20to\x20skúšam\x20samostatne\x20prídem\x20na\x20to,\x20ako\x20to\x20funguje','Keď\x20si\x20vyberám\x20jedlo\x20z\x20ponuky,\x20mám\x20tendeciu','predstavovať\x20si,\x20ako\x20bude\x20jedlo\x20vyzerať','prechádzať\x20si\x20voľby\x20v\x20mojej\x20hlave\x20alebo\x20sa\x20poradiť\x20s\x20partnerom','predstaviť\x20si,\x20ako\x20bude\x20jedlo\x20chutiť','Keď\x20počúvam\x20skupinu\x20nemôžem\x20si\x20pomôcť','sledovať\x20členov\x20skupiny\x20alebo\x20iných\x20ľudí\x20v\x20publiku','počúvam\x20pieseň\x20a\x20bicie','posúvať\x20sa\x20v\x20čase\x20s\x20hudbou','zameriavam\x20sa\x20na\x20slová\x20alebo\x20obrázky\x20predo\x20mnou','veľa\x20sa\x20hýbem,\x20pohrávam\x20sa\x20s\x20perami\x20a\x20ceruzkami\x20a\x20dotýkam\x20sa\x20vecí','Vyberám\x20si\x20domáce\x20zariadenie,\x20pretože\x20sa\x20mi\x20páči','farebnosť\x20a\x20vzhľad','predajný\x20opis,\x20ktorý\x20mi\x20dávajú','ich\x20textúra\x20a\x20pocity,\x20ktoré\x20cítim,\x20keď\x20sa\x20ich\x20dotýkam','Moja\x20prvá\x20spomienka\x20je,\x20keď','som\x20sa\x20na\x20niečo\x20pozeral','som\x20rozprával','som\x20niečo\x20robil','predstavujem\x20si\x20najhoršie\x20scény','preberám\x20v\x20mojej\x20hlave\x20to,\x20čo\x20ma\x20trápi\x20najviac','nemôžem\x20obsedieť,\x20neustále\x20sa\x20pohybujem,\x20manipulujem\x20s\x20predmetmi','ako\x20vyzerajú','čo\x20mi\x20hovoria','na\x20základe\x20pocitov','Keď\x20preskúmam\x20test,\x20spravidla','píšem\x20veľa\x20revíznych\x20poznámok\x20a\x20schém','preberám\x20moje\x20poznámky\x20sám,\x20alebo\x20s\x20inými\x20ľuďmi','predstavujem\x20si\x20pohyb\x20alebo\x20vytvorenie\x20vzorca','Ak\x20niečo\x20vysvetľujem,\x20mám\x20tendenciu','ukázať,\x20čo\x20mám\x20na\x20mysli','vysvetliť\x20im\x20to\x20rôznymi\x20spôsobmi,\x20pokiaľ\x20tomu\x20porozumejú','povzbudiť\x20ich,\x20aby\x20sa\x20pokúsili\x20povedať\x20aj\x20skrz\x20moju\x20ideu\x20ako\x20to\x20robia','Skutočne\x20mám\x20rád','počúvať\x20hudbu,\x20alebo\x20sa\x20rozprávať\x20s\x20kamarátmi','zúčastniť\x20sa\x20športových\x20aktivít,\x20jesť\x20dobré\x20jedlo\x20a\x20víno\x20alebo\x20tancovať','Množstvo\x20môjho\x20voľného\x20času\x20trávim','pozeraním\x20televízie\x20/\x20surfovaním\x20po\x20nete','rozprávaním\x20s\x20priateľmi','robenie\x20fyzických\x20aktivít\x20alebo\x20robenie\x20vecí','Ak\x20sa\x20chcem\x20s\x20niekým\x20kontaktovať','zaistím\x20si\x20s\x20ním\x20stretnutie','Prvý\x20krát\x20si\x20na\x20ľuďoch\x20všimnem','ako\x20vyzerajú\x20a\x20ako\x20sú\x20oblečení','ako\x20znejú\x20a\x20ako\x20hovoria','ako\x20stoja\x20a\x20ako\x20sa\x20pohybujú','Ak\x20som\x20nahnevaný,\x20mám\x20tendenciu','prehrávať\x20si\x20v\x20mysli,\x20čo\x20je\x20príčinou\x20toho,\x20že\x20som\x20nahnevaný','zvýšiť\x20hlas\x20a\x20povedať\x20ľuďom\x20ako\x20sa\x20cítim','tváre','mená','veci,\x20ktoré\x20som\x20urobil','vyhýbavo\x20sa\x20na\x20teba\x20pozerá','ich\x20hlas\x20je\x20zmenený','dáva\x20mi\x20vtipné\x20vibrácie','hovorím:\x20je\x20skvelé\x20ťa\x20vidieť','hovorím:\x20je\x20to\x20skvelé\x20počuť\x20od\x20teba','dávam\x20im\x20pusu,\x20alebo\x20podanie\x20ruky','písaním\x20poznámok\x20alebo\x20čítaním\x20textu','ak\x20si\x20to\x20poviem\x20nahlas,\x20opakujem\x20kľúčové\x20slová,\x20slová\x20v\x20mojej\x20hlave','robím\x20alebo\x20cvičím\x20činnosti\x20alebo\x20si\x20ich\x20predstavujem','Najpohodlnejšie\x20je,\x20ak\x20sa\x20musím\x20sťažovať\x20na\x20zlý\x20tovar','napísaním\x20listu','vrátim\x20to\x20späť\x20do\x20obchodu\x20alebo\x20nechám\x20na\x20centrále','viem\x20čo\x20myslíš','počujem\x20čo\x20hovoríš','poznám\x20ako\x20sa\x20cítiš','#form','innerHTML','<p\x20id=\x22otazka-','\x22\x20class=\x22otazka\x22>'];(function(c,d){var e=function(f){while(--f){c['push'](c['shift']());}};e(++d);}(a,0xaf));var b=function(c,d){c=c-0x0;var e=a[c];return e;};window[b('0x0')]=function(){var c=[{'otazka':b('0x1'),'a':b('0x2'),'b':b('0x3'),'c':'ak\x20väčšinou\x20robím\x20s\x20novým\x20zariadením,\x20najprv\x20ho\x20vyskúšam\x20a\x20prídem\x20na\x20to'},{'otazka':b('0x4'),'a':b('0x5'),'b':b('0x6'),'c':b('0x7')},{'otazka':'Keď\x20varím\x20nové\x20jedlo','a':b('0x8'),'b':b('0x9'),'c':b('0xa')},{'otazka':'Ak\x20učím\x20niekoho\x20niečo\x20nové\x20mám\x20tendenciu','a':b('0xb'),'b':b('0xc'),'c':b('0xd')},{'otazka':b('0xe'),'a':b('0xf'),'b':b('0x10'),'c':b('0x11')},{'otazka':'Počas\x20môjho\x20voľného\x20času\x20väčšinou','a':'chodím\x20do\x20múzeí\x20a\x20galérii','b':b('0x12'),'c':b('0x13')},{'otazka':b('0x14'),'a':b('0x15'),'b':b('0x16'),'c':b('0x17')},{'otazka':b('0x18'),'a':b('0x19'),'b':b('0x1a'),'c':b('0x1b')},{'otazka':'Keby\x20som\x20si\x20kúpil\x20nové\x20auto,\x20tak\x20by\x20som','a':b('0x1c'),'b':b('0x1d'),'c':b('0x1e')},{'otazka':b('0x1f'),'a':b('0x20'),'b':b('0x21'),'c':b('0x22')},{'otazka':b('0x23'),'a':b('0x24'),'b':b('0x25'),'c':b('0x26')},{'otazka':b('0x27'),'a':b('0x28'),'b':b('0x29'),'c':b('0x2a')},{'otazka':'Keď\x20sa\x20koncentrujem,\x20najčastejšie','a':b('0x2b'),'b':'diskutujem\x20o\x20probléme\x20a\x20možných\x20riešeniach\x20v\x20mojej\x20hlave','c':b('0x2c')},{'otazka':b('0x2d'),'a':b('0x2e'),'b':b('0x2f'),'c':b('0x30')},{'otazka':b('0x31'),'a':b('0x32'),'b':b('0x33'),'c':b('0x34')},{'otazka':'Keď\x20som\x20nervózny','a':b('0x35'),'b':b('0x36'),'c':b('0x37')},{'otazka':'V\x20kontakte\x20s\x20ostatnými\x20ľuďmi\x20si\x20všímam','a':b('0x38'),'b':b('0x39'),'c':b('0x3a')},{'otazka':b('0x3b'),'a':b('0x3c'),'b':b('0x3d'),'c':b('0x3e')},{'otazka':b('0x3f'),'a':b('0x40'),'b':b('0x41'),'c':b('0x42')},{'otazka':b('0x43'),'a':'pozeranie\x20filmov,\x20fotografie,\x20sledovať\x20výtvarné\x20diela','b':b('0x44'),'c':b('0x45')},{'otazka':b('0x46'),'a':b('0x47'),'b':b('0x48'),'c':b('0x49')},{'otazka':b('0x4a'),'a':b('0x4b'),'b':'rozprávam\x20sa\x20s\x20ním\x20cez\x20telefón\x20a\x20všetko\x20vyriešim\x20cez\x20telefón','c':'zavolám\x20ho\x20von\x20na\x20kávu,\x20šport\x20či\x20podujatie'},{'otazka':b('0x4c'),'a':b('0x4d'),'b':b('0x4e'),'c':b('0x4f')},{'otazka':b('0x50'),'a':b('0x51'),'b':b('0x52'),'c':'si\x20dupnúť,\x20buchnúť\x20dverami,\x20a\x20fyzicky\x20demonštrovať'},{'otazka':'Najjednoduchšie\x20mi\x20pripadá\x20si\x20zapamätať','a':b('0x53'),'b':b('0x54'),'c':b('0x55')},{'otazka':'Myslím,\x20že\x20ak\x20niekto\x20klame,\x20tak','a':b('0x56'),'b':b('0x57'),'c':b('0x58')},{'otazka':'Keď\x20stretnem\x20starého\x20priateľa','a':b('0x59'),'b':b('0x5a'),'c':b('0x5b')},{'otazka':'Lepšie\x20si\x20zapamätám\x20veci','a':b('0x5c'),'b':b('0x5d'),'c':b('0x5e')},{'otazka':b('0x5f'),'a':b('0x60'),'b':'sťažovaním\x20po\x20telefóne','c':b('0x61')},{'otazka':b('0xe'),'a':b('0x62'),'b':b('0x63'),'c':b('0x64')}];var d=document['querySelector'](b('0x65'));var e=0x1;for(var f of c){d[b('0x66')]+=b('0x67')+e+b('0x68')+e+'.'+f['otazka']+b('0x69');d[b('0x66')]+=b('0x6a')+e+b('0x6b')+f['a']+b('0x6c');d[b('0x66')]+=b('0x6a')+e+b('0x6d')+f['b']+b('0x6c');d[b('0x66')]+=b('0x6a')+e+b('0x6e')+f['c']+b('0x6c');e++;}d[b('0x66')]+='<br><input\x20type=\x22button\x22\x20id=\x22submit\x22\x20value=\x22Vyhodnotiť\x20dotazník\x22>';document[b('0x6f')](b('0x70'))[b('0x71')]=function(){var g=[];for(var h=0x1;h<=c[b('0x72')];h++){var i=document['querySelectorAll'](b('0x73')+h+'\x22]');for(var j of i){if(j[b('0x74')]){g[b('0x75')](j[b('0x76')]);break;}if(j[b('0x76')]=='c'){alert('Neoznačili\x20ste\x20otázku\x20číslo\x20'+h+'.!');window[b('0x77')][b('0x78')]=b('0x79')+h;g=[];}}if(g['length']==0x0)break;}if(g['length']==c[b('0x72')]){var k=0x0,l=0x0,m=0x0,n=[];for(var o of g){if(o=='a')k++;else if(o=='b')l++;else if(o=='c')m++;}for(var p=0x0;p<0x2;p++){var q=Math[b('0x7a')](k,l,m);if(q==k&&k!=0x0){n['push']('vizuálny\x20typ\x20učenia');k=0x0;}else if(q==l&&l!=0x0){n[b('0x75')]('sluchový\x20štýl\x20učenia');l=0x0;}else if(q==m&&m!=0x0){n[b('0x75')](b('0x7b'));m=0x0;}}if(n[b('0x72')]==0x1){n=n[0x0];}else if(n[b('0x72')]==0x2){n=n[0x0]+'\x20a\x20'+n[0x1];}else if(n[b('0x72')]==0x3){n=n[0x0]+',\x20'+n[0x1]+b('0x7c')+n[0x2];}document['querySelector'](b('0x7d'))[b('0x66')]=b('0x7e')+n;if(n[b('0x7f')](b('0x80'))!=-0x1)document[b('0x6f')](b('0x81'))[b('0x82')][b('0x83')]='block';if(n[b('0x7f')](b('0x84'))!=-0x1)document[b('0x6f')](b('0x85'))[b('0x82')][b('0x83')]=b('0x86');if(n['indexOf'](b('0x7b'))!=-0x1)document['querySelector'](b('0x87'))[b('0x82')]['display']=b('0x86');document[b('0x6f')](b('0x88'))[b('0x82')]['display']=b('0x86');document[b('0x89')](b('0x8a'))['forEach'](function(r){r[b('0x8b')]='true';});window[b('0x77')][b('0x78')]=b('0x7d');}};};
 		/*
 		Skript tejto stránky nie je skrytý pre verejnosť, kludne si pozrite ako funguje. Ide len o jednoduchý test.
 		Využitím tohoto skriptu si môžete len pomôcť nezneužívajte ho na pokazenie tejto metódy testovania.
 		*/
-		window.onload = function() {
-			var otazky = [
-				{
-					"otazka": "Keď pracujem s novým zariadením",
-					"a": "najprv si prečítam návod",
-					"b": "vypočujem si vysvetlenie od niekoho, kto ho používal skôr",
-					"c": "ak väčšinou robím s novým zariadením, najprv ho vyskúšam a prídem na to"
-				},
-				{
-					"otazka": "Ak potrebujem pri cestovaní pokyny, obyčajne",
-					"a": "hľadám na mape",
-					"b": "od niekoho požiadam pokyny",
-					"c": "spoľahnem sa na svoj nos a možno použijem kompas"
-				},
-				{
-					"otazka": "Keď varím nové jedlo",
-					"a": "riadim sa podľa napísaného receptu",
-					"b": "zavolám kamarátovi/známemu pre vysvetlenie",
-					"c": "nasledujem svoje inštinkty, skúšam tým, že varím"
-				},
-				{
-					"otazka": "Ak učím niekoho niečo nové mám tendenciu",
-					"a": "napísať pre nich stanovené inštrukcie",
-					"b": "dať im slovné vysvetlenie",
-					"c": "raz im to ukázať a potom ich nechať tak"
-				},
-				{
-					"otazka": "Mám tendenciu hovoriť",
-					"a": "pozri ako to robím",
-					"b": "počúvaj ma, keď vysvetľujem",
-					"c": "vyskúšaj to"
-				},
-				{
-					"otazka": "Počas môjho voľného času väčšinou",
-					"a": "chodím do múzeí a galérii",
-					"b": "počúvam hudbu a rozprávam sa s mojimi priateľmi",
-					"c": "športujem alebo robím ručné práce"
-				},
-				{
-					"otazka": "Keď nakupujem oblečenie mám tendenciu",
-					"a": "predstavovať si, ako by to vyzeralo",
-					"b": "radiť sa s personálom predajne",
-					"c": "skúšať a testovať oblečenie"
-				},
-				{
-					"otazka": "Keď si vyberám dovolenku, zvyčajne",
-					"a": "prečítam množstvo brožúr",
-					"b": "vypočujem si odporúčania od priateľov",
-					"c": "predstavujem si, aké by to tam malo byť"
-				},
-				{
-					"otazka": "Keby som si kúpil nové auto, tak by som",
-					"a": "prečítal recenzie v novinách a magazínoch",
-					"b": "prediskutoval o tom, čo potrebujem s mojimi známymi",
-					"c": "otestoval by som mnoho typov"
-				},
-				{
-					"otazka": "Najpohodlnejšie sa nové zručnosti učím",
-					"a": "ak sledujem, čo robí učiteľ",
-					"b": "ak mi učiteľ hovorí presne to, čo mám robiť",
-					"c": "keď to skúšam samostatne prídem na to, ako to funguje"
-				},
-				{
-					"otazka": "Keď si vyberám jedlo z ponuky, mám tendeciu",
-					"a": "predstavovať si, ako bude jedlo vyzerať",
-					"b": "prechádzať si voľby v mojej hlave, alebo sa poradiť s partnerom",
-					"c": "predstaviť si, ako bude jedlo chutnať"
-				},
-				{
-					"otazka": "Keď počúvam skupinu nemôžem si pomôcť",
-					"a": "sledovať členov skupiny alebo iných ľudí v publiku",
-					"b": "počúvam pieseň a bicie",
-					"c": "posúvať sa v čase s hudbou"
-				},
-				{
-					"otazka": "Keď sa koncentrujem, najčastejšie",
-					"a": "zameriavam sa na slová alebo obrázky predo mnou",
-					"b": "diskutujem o probléme a možných riešeniach v mojej hlave",
-					"c": "veľa sa hýbem, pohrávam sa s perami a ceruzkami a dotýkam sa vecí"
-				},
-				{
-					"otazka": "Vyberám si domáce zariadenie, pretože sa mi páči",
-					"a": "farebnosť a vzhľad",
-					"b": "predajný opis, ktorý mi dávajú",
-					"c": "ich textúra a pocity, ktoré cítim, keď sa ich dotýkam"
-				},
-				{
-					"otazka": "Moja prvá spomienka je, keď",
-					"a": "som sa na niečo pozeral",
-					"b": "som rozprával",
-					"c": "som niečo robil"
-				},
-				{
-					"otazka": "Keď som nervózny",
-					"a": "predstavujem si najhoršie scény",
-					"b": "preberám v mojej hlave to, čo ma trápi najviac",
-					"c": "nemôžem obsedieť, neustále sa pohybujem, manipulujem s predmetmi"
-				},
-				{
-					"otazka": "V kontakte s ostatnými ľuďmi si všímam",
-					"a": "ako vyzerajú",
-					"b": "čo mi hovoria",
-					"c": "na základe pocitov"
-				},
-				{
-					"otazka": "Keď preskúmam test, spravidla",
-					"a": "píšem veľa revíznych poznámok a schém",
-					"b": "preberám moje poznámky sám, alebo s inými ľuďmi",
-					"c": "predstavujem si pohyb alebo vytvorenie vzorca"
-				},
-				{
-					"otazka": "Ak niečo vysvetľujem, mám tendenciu",
-					"a": "ukázať, čo mám na mysli",
-					"b": "vysvetliť im to rôznymi spôsobmi, pokiaľ tomu porozumejú",
-					"c": "povzbudiť ich, aby sa pokúsili povedať aj skrz moju ideu ako to robia"
-				},
-				{
-					"otazka": "Skutočne mám rád",
-					"a": "pozeranie filmov, fotografie, sledovať výtvarné diela",
-					"b": "počúvať hudbu, alebo sa rozprávať s kamarátmi",
-					"c": "zúčastniť sa športových aktivít, jesť dobré jedlo a víno alebo tancovať"
-				},
-				{
-					"otazka": "Množstvo môjho voľného času trávim",
-					"a": "pozeraním televízie / surfovaním po nete",
-					"b": "rozprávaním s priateľmi",
-					"c": "robenie fyzických aktivít alebo robenie vecí"
-				},
-				{
-					"otazka": "Ak prvý krát kontaktujem novú osobu, zvyčajne",
-					"a": "zaistím stretnutie face to face",
-					"b": "rozprávam sa cez telefón",
-					"c": "zatiaľ čo robí niečo iné, ako napríklad nejakú činnosť alebo mäso- pokúsim sa dať do poriadku"
-				},
-				{
-					"otazka": "Prvý krát si na ľuďoch všimnem",
-					"a": "ako vyzerajú a ako sú oblečený",
-					"b": "ako znejú a ako hovoria",
-					"c": "ako stoja a ako sa pohybujú"
-				},
-				{
-					"otazka": "Ak som nahnevaný, mám tendenciu",
-					"a": "prehrávať si v mysli, čo je príčinou toho, že som nahnevaný",
-					"b": "zvýšiť hlas a povedať ľuďom ako sa cítim",
-					"c": "si dupnúť, buchnúť dverami, a fyzicky demonštrovať"
-				},
-				{
-					"otazka": "Najjednoduchšie mi pripadá si zapamätať",
-					"a": "tváre",
-					"b": "mená",
-					"c": "veci, ktoré som urobil"
-				},
-				{
-					"otazka": "Myslím, že ak niekto klame, tak",
-					"a": "vyhýbavo sa na teba pozerá",
-					"b": "ich hlas je zmenený",
-					"c": "dáva mi vtipné vibrácie"
-				},
-				{
-					"otazka": "Keď stretnem starého priateľa",
-					"a": "hovorím: je skvelé ťa vidieť",
-					"b": "hovorím: je to skvelé počuť od teba",
-					"c": "dávam im pusu, alebo podanie ruky"
-				},
-				{
-					"otazka": "Lepšie si zapamätám veci",
-					"a": "písaním poznámok alebo udržaním tlačených detailov",
-					"b": "ak si to poviem nahlas, opakujem kľúčové slová, slová v mojej hlave",
-					"c": "robím alebo cvičím činnosti alebo si ich predstavujem"
-				},
-				{
-					"otazka": "Najpohodlnejšie je, ak sa musím sťažovať na zlý tovar",
-					"a": "napísaním listu",
-					"b": "sťažovaním po telefóne",
-					"c": "vrátim to späť do obchodu alebo nechám na centrále"
-				},
-				{
-					"otazka": "Mám tendenciu hovoriť",
-					"a": "viem čo myslíš",
-					"b": "počujem čo hovoríš",
-					"c": "poznám ako sa cítiš"
-				},
-			];
-			
-			
-			var formular = document.querySelector('#form');
-		
-			var i = 1;
-			for (var otazka of otazky) {
-				formular.innerHTML += '<p>' + i + '.' + otazka.otazka + '</p>';
-				formular.innerHTML += '<input type="radio" name="' + i + '" value="a">' + otazka.a + '<br>';
-				formular.innerHTML += '<input type="radio" name="' + i + '" value="b">' + otazka.b + '<br>';
-				formular.innerHTML += '<input type="radio" name="' + i + '" value="c">' + otazka.c + '<br>';
-				i++;
-			}
-
-			formular.innerHTML += '<br><button id="submit">Vyhodnotiť dotazník</button>';
-			
-			document.querySelector('#submit').onclick = function() {
-				var answers = [];
-
-				for (var j = 1; j <= otazky.length; j++) {
-					var radios = document.querySelectorAll('input[name="' + j + '"]');
-					
-					for (var radio of radios) {
-						if (radio.checked) {
-							answers.push(radio.value);
-							break;
-						}
-						
-						if (radio.value == 'c') {
-							alert("Neoznačili ste otázku číslo " + j + ".!");
-							answers = [];
-						}
-					}
-
-					if (answers.length == 0) break;
-				}
-
-			if (answers.length == otazky.length) {
-				var a = 0, b = 0, c = 0, vysledok = [];
-
-				for (var answer of answers) {
-					if (answer == 'a') a++;
-					else if (answer == 'b') b++;
-					else if (answer == 'c') c++;
-				}
-
-				console.log(a, b, c);
-				
-				if (a >= b && a >= c) vysledok.push('vizuálny typ učenia');
-				if (b >= a && b >= c) vysledok.push('sluchový štýl učenia');
-				if (c >= a && c >= b) vysledok.push('kinestetický štýl učenia');
-			
-				if (vysledok.length == 1) {
-					vysledok = vysledok[0];
-				} else if (vysledok.length == 2) {
-					vysledok = vysledok[0] + " a " + vysledok[1];
-				} else if (vysledok.length == 3) {
-					vysledok = vysledok[0] + ", " + vysledok[1] + " a " + vysledok[2];
-				}
-			
-				document.querySelector("#vysledok").innerHTML = "Máš " + vysledok;
-				window.location.href = '#vysledok';
-			}
-			}
-			
-		}
 	</script>
 	<style>
-		p {
+		.otazka {
 			display: block;
 			font-weight: bold;
 			font-size: 1.2em;
 		}
+
 		br {
 			display: block;
 			margin-bottom: 2px;
 		}
-		
-		button {
+
+		#submit {
 			font-weight: bold;
 			margin: 5px;
 			padding: 2px;
 		}
+
+		.vysledok {
+			display: none;
+		}
+
+		#vysledok {
+			color: green;
+		}
 	</style>
 </body>
+
 </html>
